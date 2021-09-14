@@ -1,6 +1,7 @@
+/* @import "./utils.css"; */
 .App {
-    text-align: center;
-    background-color: yellow
+    text-align: center
+    /* @mixin bg-color; */
   }
 .App.app-page {
       position: absolute;
