@@ -1,0 +1,11 @@
+@define-mixin flexed-row {
+    display: flex;
+    flex-direction: row;
+}
+@define-mixin flexed-column {
+    display: flex;
+    flex-direction: column;
+}
+@define-mixin bg-color {
+    background-color: yellow;
+  }

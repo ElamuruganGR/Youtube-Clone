@@ -1,0 +1,9 @@
+.App {
+    text-align: center;
+    background-color: yellow
+  }
+.App.app-page {
+      position: absolute;
+      display: flex;
+      width: 100%;
+    }

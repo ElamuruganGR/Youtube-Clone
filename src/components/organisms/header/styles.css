@@ -1,0 +1,90 @@
+/* @import "../../../commons//styles/utils.pcss"; */
+.app-header {
+    /* display: flex; */
+    @mixin flexed-row;
+    align-items: center;
+    padding: 10px 22px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+  }
+  
+  .header-left {
+    /* display: flex; */
+    @mixin flexed-column;
+    align-items: center;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+  }
+
+  .header-left > .app-logo {
+    height: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+
+  .header-search {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-left: 20px;
+  }
+
+  .text-search {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    flex: 1;
+    color: gray;
+    height: 30px;
+    box-shadow: inset 0 1px 2px lightgray;
+    border-radius: 2px;
+    justify-content: center;
+  }
+  .text-search > input {
+    flex: 1;
+    border: none;
+    height: 25px;
+    margin-left: 10px;
+    outline: none;
+  }
+  .text-search > .search-button {
+    border-left: 1px solid lightgray;
+    background-color: #f8f8f8;
+    width: 25px;
+    height: 100%;
+    padding: 0px 20px;
+    cursor: pointer;
+  }
+  .audio-search {
+    border-radius: 50%;
+    border: none;
+    background-color: #f8f8f8;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  .header-icon {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .header-icon.avatar {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .seperator {
+    margin-left: 70px;
+    background-color: lightgray;
+    height: 1px;
+  }
+  
