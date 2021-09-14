@@ -1,4 +1,4 @@
-/* @define-mixin flexed-row {
+@define-mixin flexed-row {
     display: flex;
     flex-direction: row;
 }
@@ -8,4 +8,4 @@
 }
 @define-mixin bg-color {
     background-color: yellow;
-  } */
+  }

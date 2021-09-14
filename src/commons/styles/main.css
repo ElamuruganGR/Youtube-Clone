@@ -1,7 +1,7 @@
-/* @import "./utils.css"; */
+@import "./utils.css";
 .App {
     text-align: center;
-    /* @mixin bg-color; */
+    @mixin bg-color;
     &.app-page {
       position: absolute;
       display: flex;
